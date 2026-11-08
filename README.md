@@ -1,70 +1,73 @@
 # brasileirão-bump-chart
 
-An animated **bump / bar-chart race** of the Campeonato Brasileiro Série A, rebuilt
-round by round: each club's bar grows with its accumulated points and reorders to the
-official classification after every round, with club crests, club-colour bars, games
-played, round dates, Libertadores (G4) and relegation (Z4) lines, and a coaching layer
-that shows every hiring and firing (the incoming coach's badge pulses when they take over).
+*[English version](README-eng.md)*
 
-The output is a single self-contained `dist/index.html` (all data and images embedded) —
-open it in any browser, press **Play**, drag the slider, or tap a club to highlight it.
+Uma **corrida de barras animada** (bump / bar-chart race) do Campeonato Brasileiro Série A,
+reconstruída rodada a rodada: a barra de cada clube cresce conforme os pontos acumulados e se
+reordena pela classificação oficial após cada rodada, com escudos dos clubes, barras nas cores
+do clube, jogos disputados, datas das rodadas, linhas da Libertadores (G4) e do rebaixamento (Z4),
+e uma camada de técnicos que mostra cada contratação e demissão (o avatar do técnico que chega
+pulsa quando ele assume).
 
-## Current data
+O resultado é um único `dist/index.html` autossuficiente (todos os dados e imagens embutidos) —
+abra em qualquer navegador, clique em **Play**, arraste o controle deslizante ou toque num clube
+para destacá-lo.
 
-- **Season:** 2026 · **Matches:** complete through **round 34** of 38
-- **Standings:** computed from match results with Brazilian tiebreakers (points, wins,
-  goal difference, goals for)
-- **Coaches:** verified through round 23; rounds 24+ added from press reports with
-  approximate change-rounds. A few incoming coaches / headshots are still pending —
-  see `data/meta.json` and the update skill.
+## Dados atuais
 
-## How it's built
+- **Temporada:** 2026 · **Jogos:** completos até a **rodada 34** de 38
+- **Classificação:** calculada a partir dos resultados com os critérios de desempate brasileiros
+  (pontos, vitórias, saldo de gols, gols pró)
+- **Técnicos:** verificados até a rodada 23; rodadas 24+ adicionadas a partir de notícias da
+  imprensa, com rodadas de troca aproximadas. Veja `data/meta.json` e a skill de atualização.
+
+## Como é construído
 
 ```
-data/matches.csv            # one row per played match (round,home,home_goals,away_goals,away)
+data/matches.csv            # uma linha por jogo disputado (round,home,home_goals,away_goals,away)
       │
       ▼  python scripts/compute_standings.py
-data/standings.json         # position / points / games played per team, every round
+data/standings.json         # posição / pontos / jogos por time, em cada rodada
       │
       ▼  python scripts/generate.py   (+ data/teams.json, data/coaches.json, data/meta.json, assets/)
-dist/index.html             # self-contained interactive chart
+dist/index.html             # gráfico interativo autossuficiente
 ```
 
-Regenerate everything:
+Regenerar tudo:
 
 ```bash
 python3 scripts/compute_standings.py
 python3 scripts/generate.py
 ```
 
-### Optional: export an MP4
+### Opcional: exportar um MP4
 
-Requires Node with Playwright (Chromium) and `ffmpeg`:
+Requer Node com Playwright (Chromium) e `ffmpeg`:
 
 ```bash
-node scripts/capture_video.mjs     # renders frames/ by screenshotting the HTML round by round
+node scripts/capture_video.mjs     # gera frames/ tirando prints do HTML rodada a rodada
 bash scripts/encode_video.sh       # frames/ -> dist/brasileirao-bump-chart.mp4
 ```
 
-## Images / assets
+## Imagens / assets
 
-`assets/crests/*.png` (club crests) and `assets/coaches/*.jpg` (coach headshots) are
-third-party images included here for a **private** project. The generator treats them as
-optional: a club with no crest file falls back to a colour **monogram** badge, and a coach
-with no photo falls back to **initials**. To add or replace one, drop a file named after the
-club/coach slug into the matching folder and re-run `generate.py`.
+`assets/crests/*.png` (escudos dos clubes) e `assets/coaches/*.jpg` (fotos dos técnicos) são
+imagens de terceiros, incluídas aqui para um projeto **privado**. O gerador as trata como
+opcionais: um clube sem arquivo de escudo cai para um selo com **monograma** colorido, e um técnico
+sem foto cai para as **iniciais**. Para adicionar ou trocar uma, coloque um arquivo nomeado pelo
+slug do clube/técnico na pasta correspondente e rode `generate.py` novamente.
 
-## Updating the data
+## Atualizando os dados
 
-A future agent (or you) can refresh results and coaches by following the skill at
+Um agente futuro (ou você) pode atualizar resultados e técnicos seguindo a skill em
 `skills/update-brasileirao-data/SKILL.md`.
 
-## Project layout
+## Estrutura do projeto
 
 ```
-data/      matches.csv, teams.json, coaches.json, meta.json, standings.json (generated)
+data/      matches.csv, teams.json, coaches.json, meta.json, standings.json (gerado)
 assets/    crests/, coaches/
 scripts/   compute_standings.py, generate.py, capture_video.mjs, encode_video.sh
-dist/      index.html (generated)
+dist/      index.html (gerado)
 skills/update-brasileirao-data/SKILL.md
 ```
