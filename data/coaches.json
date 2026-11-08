@@ -1,0 +1,288 @@
+{
+  "Athletico-PR": [
+    {
+      "name": "Odair Hellmann",
+      "short": "Odair",
+      "from_round": 1,
+      "photo": "assets/coaches/odair_hellmann.jpg"
+    }
+  ],
+  "Atlético-MG": [
+    {
+      "name": "Jorge Sampaoli",
+      "short": "Sampaoli",
+      "from_round": 1,
+      "photo": "assets/coaches/jorge_sampaoli.jpg"
+    },
+    {
+      "name": "Eduardo Domínguez",
+      "short": "Domínguez",
+      "from_round": 4,
+      "photo": "assets/coaches/eduardo_dominguez.jpg"
+    }
+  ],
+  "Bahia": [
+    {
+      "name": "Rogério Ceni",
+      "short": "Ceni",
+      "from_round": 1,
+      "photo": "assets/coaches/rogerio_ceni.jpg"
+    }
+  ],
+  "Botafogo": [
+    {
+      "name": "Martín Anselmi",
+      "short": "Anselmi",
+      "from_round": 1,
+      "photo": "assets/coaches/martin_anselmi.jpg"
+    },
+    {
+      "name": "Franclim Carvalho",
+      "short": "Franclim",
+      "from_round": 10,
+      "photo": "assets/coaches/franclim_carvalho.jpg"
+    },
+    {
+      "name": "Tite",
+      "short": "Tite",
+      "from_round": 32,
+      "photo": "assets/coaches/tite.jpg"
+    }
+  ],
+  "Bragantino": [
+    {
+      "name": "Vagner Mancini",
+      "short": "Mancini",
+      "from_round": 1,
+      "photo": "assets/coaches/vagner_mancini.jpg"
+    }
+  ],
+  "Chapecoense": [
+    {
+      "name": "Gilmar Dal Pozzo",
+      "short": "Dal Pozzo",
+      "from_round": 1,
+      "photo": "assets/coaches/gilmar_dal_pozzo.jpg"
+    },
+    {
+      "name": "Fábio Matias",
+      "short": "Matias",
+      "from_round": 11,
+      "photo": "assets/coaches/fabio_matias.jpg"
+    },
+    {
+      "name": "Rafael Lacerda",
+      "short": "Lacerda",
+      "from_round": 18,
+      "photo": "assets/coaches/rafael_lacerda.jpg"
+    }
+  ],
+  "Corinthians": [
+    {
+      "name": "Dorival Júnior",
+      "short": "Dorival",
+      "from_round": 1,
+      "photo": "assets/coaches/dorival_junior.jpg"
+    },
+    {
+      "name": "Fernando Diniz",
+      "short": "Diniz",
+      "from_round": 11,
+      "photo": "assets/coaches/fernando_diniz.jpg"
+    },
+    {
+      "name": "Clarence Seedorf",
+      "short": "Seedorf",
+      "from_round": 29,
+      "photo": "assets/coaches/clarence_seedorf.jpg"
+    }
+  ],
+  "Coritiba": [
+    {
+      "name": "Fernando Seabra",
+      "short": "Seabra",
+      "from_round": 1,
+      "photo": "assets/coaches/fernando_seabra.jpg"
+    },
+    {
+      "name": "Guilherme Bossle",
+      "short": "Bossle",
+      "from_round": 32,
+      "photo": "assets/coaches/guilherme_bossle.jpg"
+    }
+  ],
+  "Cruzeiro": [
+    {
+      "name": "Tite",
+      "short": "Tite",
+      "from_round": 1,
+      "photo": "assets/coaches/tite.jpg"
+    },
+    {
+      "name": "Artur Jorge",
+      "short": "Artur Jorge",
+      "from_round": 9,
+      "photo": "assets/coaches/artur_jorge.jpg"
+    }
+  ],
+  "Flamengo": [
+    {
+      "name": "Filipe Luís",
+      "short": "Filipe Luís",
+      "from_round": 1,
+      "photo": "assets/coaches/filipe_luis.jpg"
+    },
+    {
+      "name": "Leonardo Jardim",
+      "short": "Jardim",
+      "from_round": 5,
+      "photo": "assets/coaches/leonardo_jardim.jpg"
+    }
+  ],
+  "Fluminense": [
+    {
+      "name": "Luis Zubeldía",
+      "short": "Zubeldía",
+      "from_round": 1,
+      "photo": "assets/coaches/luis_zubeldia.jpg"
+    },
+    {
+      "name": "Marcão",
+      "short": "Marcão",
+      "from_round": 23,
+      "photo": "assets/coaches/marcao.jpg"
+    }
+  ],
+  "Grêmio": [
+    {
+      "name": "Luís Castro",
+      "short": "Castro",
+      "from_round": 1,
+      "photo": "assets/coaches/luis_castro.jpg"
+    },
+    {
+      "name": "Renato Gaúcho",
+      "short": "Renato",
+      "from_round": 28,
+      "photo": "assets/coaches/renato_gaucho.jpg"
+    }
+  ],
+  "Internacional": [
+    {
+      "name": "Paulo Pezzolano",
+      "short": "Pezzolano",
+      "from_round": 1,
+      "photo": "assets/coaches/paulo_pezzolano.jpg"
+    },
+    {
+      "name": "Eduardo Baptista",
+      "short": "E. Baptista",
+      "from_round": 29,
+      "photo": "assets/coaches/eduardo_baptista.jpg"
+    }
+  ],
+  "Mirassol": [
+    {
+      "name": "Rafael Guanaes",
+      "short": "Guanaes",
+      "from_round": 1,
+      "photo": "assets/coaches/rafael_guanaes.jpg"
+    }
+  ],
+  "Palmeiras": [
+    {
+      "name": "Abel Ferreira",
+      "short": "Abel",
+      "from_round": 1,
+      "photo": "assets/coaches/abel_ferreira.jpg"
+    }
+  ],
+  "Remo": [
+    {
+      "name": "Juan Carlos Osorio",
+      "short": "Osorio",
+      "from_round": 1,
+      "photo": "assets/coaches/juan_carlos_osorio.jpg"
+    },
+    {
+      "name": "Léo Condé",
+      "short": "Condé",
+      "from_round": 5,
+      "photo": "assets/coaches/leo_conde.jpg"
+    },
+    {
+      "name": "Thiago Carpini",
+      "short": "Carpini",
+      "from_round": 28,
+      "photo": "assets/coaches/thiago_carpini.jpg"
+    }
+  ],
+  "Santos": [
+    {
+      "name": "Juan Pablo Vojvoda",
+      "short": "Vojvoda",
+      "from_round": 1,
+      "photo": "assets/coaches/juan_pablo_vojvoda.jpg"
+    },
+    {
+      "name": "Cuca",
+      "short": "Cuca",
+      "from_round": 7,
+      "photo": "assets/coaches/cuca.jpg"
+    }
+  ],
+  "São Paulo": [
+    {
+      "name": "Hernán Crespo",
+      "short": "Crespo",
+      "from_round": 1,
+      "photo": "assets/coaches/hernan_crespo.jpg"
+    },
+    {
+      "name": "Roger Machado",
+      "short": "Roger",
+      "from_round": 5,
+      "photo": "assets/coaches/roger_machado.jpg"
+    },
+    {
+      "name": "Dorival Júnior",
+      "short": "Dorival",
+      "from_round": 16,
+      "photo": "assets/coaches/dorival_junior.jpg"
+    }
+  ],
+  "Vasco": [
+    {
+      "name": "Fernando Diniz",
+      "short": "Diniz",
+      "from_round": 1,
+      "photo": "assets/coaches/fernando_diniz.jpg"
+    },
+    {
+      "name": "Renato Gaúcho",
+      "short": "Renato",
+      "from_round": 5,
+      "photo": "assets/coaches/renato_gaucho.jpg"
+    },
+    {
+      "name": "Pedro Emanuel",
+      "short": "Pedro Emanuel",
+      "from_round": 19,
+      "photo": "assets/coaches/pedro_emanuel.jpg"
+    }
+  ],
+  "Vitória": [
+    {
+      "name": "Jair Ventura",
+      "short": "Jair",
+      "from_round": 1,
+      "photo": "assets/coaches/jair_ventura.jpg"
+    },
+    {
+      "name": "Cléber dos Santos",
+      "short": "Cléber",
+      "from_round": 34,
+      "photo": "assets/coaches/cleber_dos_santos.jpg"
+    }
+  ]
+}

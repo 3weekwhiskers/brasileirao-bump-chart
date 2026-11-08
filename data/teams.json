@@ -1,0 +1,249 @@
+{
+  "teams": [
+    {
+      "name": "Athletico-PR",
+      "slug": "athletico_pr",
+      "monogram": "CAP",
+      "colors": [
+        "#E4002B",
+        "#1A1A1A"
+      ],
+      "badge_ring": "#E4002B",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/athletico_pr.png"
+    },
+    {
+      "name": "Atlético-MG",
+      "slug": "atletico_mg",
+      "monogram": "CAM",
+      "colors": [
+        "#1A1A1A",
+        "#EDEDED"
+      ],
+      "badge_ring": "#F2C200",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/atletico_mg.png"
+    },
+    {
+      "name": "Bahia",
+      "slug": "bahia",
+      "monogram": "BAH",
+      "colors": [
+        "#1D6FB8",
+        "#E4002B",
+        "#F2F2F2"
+      ],
+      "badge_ring": "#E4002B",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/bahia.png"
+    },
+    {
+      "name": "Botafogo",
+      "slug": "botafogo",
+      "monogram": "BOT",
+      "colors": [
+        "#161616",
+        "#FFFFFF"
+      ],
+      "badge_ring": "#FFFFFF",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/botafogo.png"
+    },
+    {
+      "name": "Bragantino",
+      "slug": "bragantino",
+      "monogram": "RBB",
+      "colors": [
+        "#EDEDED",
+        "#E2001A"
+      ],
+      "badge_ring": "#FFFFFF",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/bragantino.png"
+    },
+    {
+      "name": "Chapecoense",
+      "slug": "chapecoense",
+      "monogram": "CHA",
+      "colors": [
+        "#0E8A43",
+        "#F2F2F2"
+      ],
+      "badge_ring": "#FFFFFF",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/chapecoense.png"
+    },
+    {
+      "name": "Corinthians",
+      "slug": "corinthians",
+      "monogram": "COR",
+      "colors": [
+        "#1A1A1A",
+        "#EDEDED"
+      ],
+      "badge_ring": "#FFFFFF",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/corinthians.png"
+    },
+    {
+      "name": "Coritiba",
+      "slug": "coritiba",
+      "monogram": "CFC",
+      "colors": [
+        "#0E9B5A",
+        "#EDEDED"
+      ],
+      "badge_ring": "#0A2E5C",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/coritiba.png"
+    },
+    {
+      "name": "Cruzeiro",
+      "slug": "cruzeiro",
+      "monogram": "CRU",
+      "colors": [
+        "#1E3C86",
+        "#EDEDED"
+      ],
+      "badge_ring": "#FFFFFF",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/cruzeiro.png"
+    },
+    {
+      "name": "Flamengo",
+      "slug": "flamengo",
+      "monogram": "FLA",
+      "colors": [
+        "#C4122E",
+        "#1A1A1A"
+      ],
+      "badge_ring": "#C4122E",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/flamengo.png"
+    },
+    {
+      "name": "Fluminense",
+      "slug": "fluminense",
+      "monogram": "FLU",
+      "colors": [
+        "#7C1330",
+        "#0E7A43",
+        "#F2F2F2"
+      ],
+      "badge_ring": "#0E8A43",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/fluminense.png"
+    },
+    {
+      "name": "Grêmio",
+      "slug": "gremio",
+      "monogram": "GRE",
+      "colors": [
+        "#0E7FC0",
+        "#141414",
+        "#F2F2F2"
+      ],
+      "badge_ring": "#1A1A1A",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/gremio.png"
+    },
+    {
+      "name": "Internacional",
+      "slug": "internacional",
+      "monogram": "INT",
+      "colors": [
+        "#D81E27",
+        "#F2F2F2"
+      ],
+      "badge_ring": "#FFFFFF",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/internacional.png"
+    },
+    {
+      "name": "Mirassol",
+      "slug": "mirassol",
+      "monogram": "MIR",
+      "colors": [
+        "#F5C518",
+        "#0B7A3B"
+      ],
+      "badge_ring": "#0B7A3B",
+      "badge_text": "#1A1A1A",
+      "crest": "assets/crests/mirassol.png"
+    },
+    {
+      "name": "Palmeiras",
+      "slug": "palmeiras",
+      "monogram": "PAL",
+      "colors": [
+        "#0A7C43",
+        "#FFFFFF"
+      ],
+      "badge_ring": "#0A7C43",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/palmeiras.png"
+    },
+    {
+      "name": "Remo",
+      "slug": "remo",
+      "monogram": "REM",
+      "colors": [
+        "#1B4FA0",
+        "#F2F2F2"
+      ],
+      "badge_ring": "#FFFFFF",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/remo.png"
+    },
+    {
+      "name": "Santos",
+      "slug": "santos",
+      "monogram": "SAN",
+      "colors": [
+        "#161616",
+        "#FFFFFF"
+      ],
+      "badge_ring": "#E8E8E8",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/santos.png"
+    },
+    {
+      "name": "São Paulo",
+      "slug": "sao_paulo",
+      "monogram": "SAO",
+      "colors": [
+        "#E7132B",
+        "#F2F2F2",
+        "#1A1A1A"
+      ],
+      "badge_ring": "#0A0A0A",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/sao_paulo.png"
+    },
+    {
+      "name": "Vasco",
+      "slug": "vasco",
+      "monogram": "VAS",
+      "colors": [
+        "#161616",
+        "#F2F2F2",
+        "#D81E27"
+      ],
+      "badge_ring": "#D81E27",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/vasco.png"
+    },
+    {
+      "name": "Vitória",
+      "slug": "vitoria",
+      "monogram": "VIT",
+      "colors": [
+        "#C4001C",
+        "#1A1A1A"
+      ],
+      "badge_ring": "#1A1A1A",
+      "badge_text": "#FFFFFF",
+      "crest": "assets/crests/vitoria.png"
+    }
+  ]
+}
